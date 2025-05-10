@@ -1,0 +1,151 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+
+header {
+  background-color: #4a90e2;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+}
+
+.header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 10px 20px;
+}
+
+.logo {
+  max-width: 150px;
+  height: auto;
+  display: block;
+}
+
+nav a {
+  color: white;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.hero {
+  text-align: center;
+  padding: 40px;
+  background-color: #f0f0f0;
+}
+
+.book-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+  padding: 20px;
+}
+
+.book {
+  border: 1px solid #ccc;
+  padding: 10px;
+  flex: 1 1 calc(33.333% - 20px);
+  box-sizing: border-box;
+  text-align: center;
+}
+
+.book img {
+  max-width: 100%;
+  height: auto;
+}
+
+form {
+  max-width: 500px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+form input,
+form textarea {
+  width: 100%;
+  padding: 10px;
+  margin-bottom: 10px;
+}
+
+.contact-note {
+  background-color: #f0f8ff;
+  border-left: 5px solid #0077cc;
+  padding: 15px 20px;
+  margin: 20px 0;
+  border-radius: 8px;
+  color: #333;
+}
+
+.contact-note p {
+  margin: 0 0 10px;
+  line-height: 1.6;
+}
+
+.contact-note ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.contact-note li {
+  margin: 5px 0;
+  font-size: 0.95rem;
+}
+
+.contact-note a {
+  color: #0077cc;
+  text-decoration: none;
+}
+
+.contact-note a:hover {
+  text-decoration: underline;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  background-color: #333;
+  color: white;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .book {
+    flex: 1 1 100%;
+  }
+}
