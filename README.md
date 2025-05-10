@@ -41,4 +41,5 @@ index.html — Homepage
 books.html — Book listings (with 5 initial books + Load More button)
 
 contact.html — Contact form and info
-Deployment Link
+
+Deployment Link https://online-bookstore-ejoga-emmanuels-projects.vercel.app
